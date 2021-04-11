@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tumblr_pf04fim9u61tjrwsw_1280"
+    android:orientation="vertical"
+    tools:context=".QuizList">
+
+    <TextView
+        android:id="@+id/welcomeUsr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:textColor="#FDFDFD"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/quiz1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="170sp"
+        android:background="#FFFFFF"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:textColor="#000000"
+        app:backgroundTint="@color/button_background_color" />
+
+    <Button
+        android:id="@+id/quiz2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50sp"
+        android:background="#FFFFFF"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:textColor="#000000"
+        app:backgroundTint="@color/button_background_color"
+        app:iconTint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/quiz3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50sp"
+        android:background="#FFFFFF"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:textColor="#000000"
+        app:backgroundTint="@color/button_background_color" />
+
+    <Button
+        android:id="@+id/quiz4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50sp"
+        android:background="#FFFFFF"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:textColor="#000000"
+        app:backgroundTint="@color/button_background_color" />
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
